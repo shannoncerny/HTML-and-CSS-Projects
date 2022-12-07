@@ -1,0 +1,23 @@
+/*-----------------------------
+GENERIC STYLING
+-------------------------------*/
+html{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*------------------------------
+HOME STYLING
+--------------------------------*/
+#home{
+    font-size: 32px;
+}
+
+/*-------------------------------
+CONTACT FORM
+---------------------------------*/
+.reservation form{
+    width: 70%;
+    margin: 2% auto;
+    border: 1px solid #808080;
+    border-radius: 7px;
+}
