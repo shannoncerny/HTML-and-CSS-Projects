@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open academy_cinemas.html",
-            "file": "c:\\Users\\shann\\OneDrive\\Documents\\GitHub\\Tech-Academy-Projects\\HTML-and-CSS-Projects\\academy_cinemas.html"
+            "name": "Open bootstrap_grid.html",
+            "file": "c:\\Users\\shann\\OneDrive\\Documents\\GitHub\\Tech-Academy-Projects\\HTML-and-CSS-Projects\\bootstrap_grid.html"
         }
     ]
 }
