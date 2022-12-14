@@ -1,0 +1,148 @@
+/*------------------------------
+IMAGE CENTERING
+--------------------------------*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*--------------------------
+IMAGE FILTER
+----------------------------*/
+img{
+    filter: drop-shadow(8px 8px 10px rgb(4, 107, 73));
+    border-radius: 15px;
+}
+
+/*-------------------------
+FOOTER
+---------------------------*/
+footer{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+footer:hover{
+    color: blue;
+}
+
+/*-------------------------
+TABLE SECTION
+---------------------------*/
+table{
+    border: 2px solid seagreen;
+    padding: 5px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 5px;
+    text-align: center;
+    border-bottom: 2px solid seagreen;
+}
+
+th{
+    background-color: darkseagreen;
+}
+
+/*------------------------------
+IMAGE TEXT
+--------------------------------*/
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*------------------------------
+NAVBAR SECTION
+--------------------------------*/
+.navbar{
+    overflow: hidden;
+    background-color: darkseagreen;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background: seagreen;
+    color: darkblue;
+}
+
+.main{
+    margin-top: 50px;
+}
+
+/*------------------------------
+COLUMN SECTION
+--------------------------------*/
+.column{
+    float: left;
+    width: 50%;
+    text-align: center;
+    height: auto;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column h3{
+    color: seagreen;
+}
+
+.column p{
+    color: blue;
+}
+
+/*--------------------------
+PHOTO OVERLAY
+----------------------------*/
+.photo-overlay{
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover img{
+    opacity: 0.5;
+}
+
+.container:hover .photo-overlay{
+    opacity: 1;
+}
+
+.gecko-image{
+    color: blue;
+    font-weight: bolder;
+}
+
